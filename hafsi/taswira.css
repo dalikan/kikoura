@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 580px;
+    align-items: center;
+background-color: blueviolet;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+    transition: 0.3s ;
+}
+img:hover{
+    opacity: 1;
+    border: solid 20px gray;
+    transition: 0.3s ;
+}
